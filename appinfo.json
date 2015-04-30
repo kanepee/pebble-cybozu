@@ -1,7 +1,7 @@
 {
     "appKeys": {},
     "capabilities": [
-        ""
+        "configurable"
     ],
     "companyName": "akitoshi@kanepee.jp",
     "longName": "Cybozu\u30b9\u30b1\u30b8\u30e5\u30fc\u30eb",
@@ -9,15 +9,20 @@
     "resources": {
         "media": [
             {
-                "file": "images/cb_menu_icon.png",
+                "file": "images/menu_icon.png",
                 "menuIcon": true,
                 "name": "IMAGE_MENU_ICON",
                 "type": "png"
             },
             {
-                "file": "images/cb_logo_splash.png",
+                "file": "images/logo_splash.png",
                 "name": "IMAGE_LOGO_SPLASH",
                 "type": "png"
+            },
+            {
+                "file": "fonts/UbuntuMono-Regular.ttf",
+                "name": "MONO_FONT_14",
+                "type": "font"
             }
         ]
     },
