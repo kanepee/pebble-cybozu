@@ -18,7 +18,7 @@
                 "file": "images/cb_logo_splash.png",
                 "name": "IMAGE_LOGO_SPLASH",
                 "type": "png"
-            },
+            }
         ]
     },
     "shortName": "Cybozu",
