@@ -23,7 +23,7 @@ var loadCybozu = function () {
         count++;
       }
       if((count == 1) && !headline[i].match(/<hr>/)) {
-        headline[i] = headline[i].replace(/<a[^>]*>(.*)<\/a>/, "## $1 ##");
+        headline[i] = headline[i].replace(/<a[^>]*>(.*)<\/a>/, "Ÿ $1 Ÿ");
         hlbody = hlbody + headline[i].replace(/<[^>]*>/g, "") + "\n";
       }
     }
