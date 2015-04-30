@@ -18,11 +18,6 @@
                 "file": "images/cb_logo_splash.png",
                 "name": "IMAGE_LOGO_SPLASH",
                 "type": "png"
-            },
-            {
-                "file": "fonts/UbuntuMono-Regular.ttf",
-                "name": "MONO_FONT_14",
-                "type": "font"
             }
         ]
     },
