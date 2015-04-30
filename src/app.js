@@ -23,7 +23,7 @@ var loadCybozu = function () {
         count++;
       }
       if((count == 1) && !headline[i].match(/<hr>/)) {
-        headline[i] = headline[i].replace(/<a[^>]*>(.*)<\/a>/, "Åü $1 Åü");
+        headline[i] = headline[i].replace(/<a[^>]*>(.*)<\/a>/, "== $1 ==");
         hlbody = hlbody + headline[i].replace(/<[^>]*>/g, "") + "\n";
       }
     }
@@ -37,4 +37,4 @@ simply.on('singleClick', function(e) {
   }
 });
 
-loadCybozu();
+setTimeout(loadCybozu(), 500);
